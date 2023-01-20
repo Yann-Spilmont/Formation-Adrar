@@ -765,7 +765,7 @@ for(let i = 0 ; i<60 ; i++){
 */
 
 //exo forme couleur
-
+/*
 setPos(250,450);
 setLineWidth(3);
 shiftColor(0);
@@ -776,12 +776,14 @@ let repet=3;
 
 for(let i=0 ; i<10 ; i++){
 
-    let angle=360/repet;
+    let angle=180-((repet-2)*180)/repet;//==360/repet
 
-    for(let j=0 ; j<repet; j++);{
+    for(let j=0 ; j<repet; j++){
         forward(100);
         left(angle);
     }
+    
     repet=repet+1;
     shiftColor(0.1);
 }
+*/
